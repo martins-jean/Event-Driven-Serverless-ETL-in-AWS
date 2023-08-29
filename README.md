@@ -25,6 +25,9 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - "start_workflow_function.py" <br>
   - "toll_plaza_application.py" <br>
   4. Upload the "sample_data_toll_application.json" file manually to your landing bucket or run the "toll_plaza_application.py" Lambda function to automatically create and send randomly generated toll data to your landing bucket. <br>
+  5. Create a Redshift cluster with the following configurations: <br>
+  - Node type: dc2.large <br>
+  - Number of nodes: 1 <br>
 </details>
 
 <details>
