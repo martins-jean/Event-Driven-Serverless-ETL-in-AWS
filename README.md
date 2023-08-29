@@ -20,3 +20,19 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 <details>
   <summary>Configure an Amazon S3 event notification to invoke an AWS Lambda function</summary>
 </details>
+
+<details>
+  <summary>Create an AWS Glue crawler to read schema from Amazon Redshift</summary>
+</details>
+
+<details>
+  <summary>Create an AWS Glue ETL job to move data from an S3 bucket to Amazon Redshift</summary>
+</details>
+
+<details>
+  <summary>Create AWS Glue workflows to crawl raw data from the S3 bucket, and then use an AWS Glue ETL job</summary>
+</details>
+
+<details>
+  <summary>Query the data using the Amazon Redshift query editor</summary>
+</details>
