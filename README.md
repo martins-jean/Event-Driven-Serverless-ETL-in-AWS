@@ -11,4 +11,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 3. An AWS Glue crawler can crawl multiple data stores to populate the AWS Glue Data Catalog with tables. ETL jobs, which you define in AWS Glue, use these Data Catalog tables as sources and targets.
 4. An AWS Glue job encapsulates a script that connects to your source data, processes it, and then writes it out to your data target.
 5. You can use the Amazon S3 Event Notifications feature to receive notifications when a PUT event happens in the S3 bucket. The feature then sends event notification messages to the AWS Lambda function.
-6. In AWS Glue, you can use the 
+6. In AWS Glue, you can use workflows to create and visualize complex ETL activities that involve multiple crawlers, jobs, and triggers.
+7. Each workflow manages the run and monitoring of all of its jobs and crawlers. As a workflow runs each component, it records progress and status.
+8. AWS Glue jobs issue COPY statements against Amazon Redshift to achieve maximum throughput. These commands require that the Amazon Redshift cluster access Amazon S3 as a staging directory.
+9. You can connect to the Amazon Redshift database using the built-in query editor, SQL client tool or built-in Data API.
