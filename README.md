@@ -19,7 +19,9 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 ## Step-by-step Guidelines
 <details>
   <summary>Required setup</summary>
-  Download the SQL query included the the "create_table.txt" file.
+  <ul>
+    <li> Download the SQL query included the the "create_table.txt" file. </li>
+  </ul>
 </details>
 
 <details>
