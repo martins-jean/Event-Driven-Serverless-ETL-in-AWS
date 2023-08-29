@@ -54,7 +54,10 @@ Click "Connect to Database" and use the following configurations:
   - Under Authentication, choose Temporary credentials <br>
   - Under Cluster, select the one you created for this project <br>
   - Under Database name, type "toll_db" <br>
-  - Under Database user, select "admin"
+  - Under Database user, select "admin". <br>
+  - Click connect and finish this step. <br>
+  5. Under Resources on the left, make sure "toll_db" and "public" are selected. <br>
+  6. Open the "create_table.txt" file and paste the content of the query to the query editor on the right. <br>
 </details>
 
 <details>
