@@ -1,0 +1,100 @@
+{'transaction_id': 95254, 'transaction_date': '2023/08/13', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Audi', 'vehicle_category': 'Coupe, Sedan, Convertible', 'transaction_amount': 8.85}
+{'transaction_id': 35419, 'transaction_date': '2023/07/30', 'toll_booth': 'royal_ave', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'SUV', 'transaction_amount': 6.98}
+{'transaction_id': 65871, 'transaction_date': '2023/08/07', 'toll_booth': 'royal_ave', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'SUV', 'transaction_amount': 5.28}
+{'transaction_id': 71898, 'transaction_date': '2023/08/22', 'toll_booth': 'golf_rd', 'vehicle_make': 'Subaru', 'vehicle_category': 'Sedan', 'transaction_amount': 9.63}
+{'transaction_id': 39673, 'transaction_date': '2023/08/13', 'toll_booth': 'golf_rd', 'vehicle_make': 'Lexus', 'vehicle_category': 'Coupe', 'transaction_amount': 4.69}
+{'transaction_id': 60851, 'transaction_date': '2023/08/14', 'toll_booth': 'royal_ave', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'Pickup', 'transaction_amount': 6.71}
+{'transaction_id': 41518, 'transaction_date': '2023/08/07', 'toll_booth': '82nd_st', 'vehicle_make': 'Plymouth', 'vehicle_category': 'SUV', 'transaction_amount': 8.15}
+{'transaction_id': 78117, 'transaction_date': '2023/08/10', 'toll_booth': 'golf_rd', 'vehicle_make': 'Lexus', 'vehicle_category': 'Coupe, Convertible', 'transaction_amount': 2.63}
+{'transaction_id': 92088, 'transaction_date': '2023/08/05', 'toll_booth': '82nd_st', 'vehicle_make': 'Dodge', 'vehicle_category': 'Coupe, Convertible', 'transaction_amount': 1.8}
+{'transaction_id': 85339, 'transaction_date': '2023/08/24', 'toll_booth': 'royal_ave', 'vehicle_make': 'Hyundai', 'vehicle_category': 'Sedan', 'transaction_amount': 4.72}
+{'transaction_id': 62744, 'transaction_date': '2023/08/06', 'toll_booth': 'royal_ave', 'vehicle_make': 'Dodge', 'vehicle_category': 'Coupe', 'transaction_amount': 1.48}
+{'transaction_id': 19928, 'transaction_date': '2023/08/28', 'toll_booth': 'york_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Sedan', 'transaction_amount': 2.88}
+{'transaction_id': 70778, 'transaction_date': '2023/08/02', 'toll_booth': 'golf_rd', 'vehicle_make': 'Eagle', 'vehicle_category': 'Sedan, Coupe', 'transaction_amount': 0.05}
+{'transaction_id': 90819, 'transaction_date': '2023/08/08', 'toll_booth': 'york_rd', 'vehicle_make': 'Nissan', 'vehicle_category': 'Coupe, Convertible, Wagon, Sedan', 'transaction_amount': 6.61}
+{'transaction_id': 3660, 'transaction_date': '2023/08/17', 'toll_booth': 'york_rd', 'vehicle_make': 'Ford', 'vehicle_category': 'Sedan', 'transaction_amount': 4.64}
+{'transaction_id': 42221, 'transaction_date': '2023/08/18', 'toll_booth': 'royal_ave', 'vehicle_make': 'Honda', 'vehicle_category': 'Convertible', 'transaction_amount': 7.02}
+{'transaction_id': 84003, 'transaction_date': '2023/08/22', 'toll_booth': 'york_rd', 'vehicle_make': 'BMW', 'vehicle_category': 'SUV', 'transaction_amount': 2.53}
+{'transaction_id': 23072, 'transaction_date': '2023/07/31', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Ford', 'vehicle_category': 'Pickup', 'transaction_amount': 0.02}
+{'transaction_id': 50253, 'transaction_date': '2023/08/07', 'toll_booth': 'york_rd', 'vehicle_make': 'Mercedes-Benz', 'vehicle_category': 'Sedan', 'transaction_amount': 1.69}
+{'transaction_id': 94162, 'transaction_date': '2023/08/16', 'toll_booth': '82nd_st', 'vehicle_make': 'Chrysler', 'vehicle_category': 'Pickup', 'transaction_amount': 6.1}
+{'transaction_id': 68025, 'transaction_date': '2023/08/12', 'toll_booth': 'york_rd', 'vehicle_make': 'Porsche', 'vehicle_category': 'Pickup', 'transaction_amount': 1.4}
+{'transaction_id': 68360, 'transaction_date': '2023/08/12', 'toll_booth': 'york_rd', 'vehicle_make': 'Dodge', 'vehicle_category': 'SUV', 'transaction_amount': 8.93}
+{'transaction_id': 9818, 'transaction_date': '2023/08/25', 'toll_booth': 'york_rd', 'vehicle_make': 'Mercedes-Benz', 'vehicle_category': 'Pickup', 'transaction_amount': 8.31}
+{'transaction_id': 37946, 'transaction_date': '2023/08/09', 'toll_booth': 'york_rd', 'vehicle_make': 'Dodge', 'vehicle_category': 'SUV', 'transaction_amount': 9.04}
+{'transaction_id': 4560, 'transaction_date': '2023/08/02', 'toll_booth': 'savanna_west', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'Convertible', 'transaction_amount': 3.62}
+{'transaction_id': 45029, 'transaction_date': '2023/08/22', 'toll_booth': 'golf_rd', 'vehicle_make': 'Acura', 'vehicle_category': 'Convertible', 'transaction_amount': 5.52}
+{'transaction_id': 14637, 'transaction_date': '2023/08/18', 'toll_booth': 'york_rd', 'vehicle_make': 'Toyota', 'vehicle_category': 'Sedan', 'transaction_amount': 9.39}
+{'transaction_id': 53636, 'transaction_date': '2023/08/08', 'toll_booth': 'golf_rd', 'vehicle_make': 'BMW', 'vehicle_category': 'Sedan', 'transaction_amount': 6.81}
+{'transaction_id': 62170, 'transaction_date': '2023/08/01', 'toll_booth': '82nd_st', 'vehicle_make': 'Aston Martin', 'vehicle_category': 'Sedan, Convertible', 'transaction_amount': 2.37}
+{'transaction_id': 98867, 'transaction_date': '2023/08/16', 'toll_booth': '82nd_st', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Pickup', 'transaction_amount': 1.87}
+{'transaction_id': 34350, 'transaction_date': '2023/08/25', 'toll_booth': 'york_rd', 'vehicle_make': 'Lotus', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 6.17}
+{'transaction_id': 6290, 'transaction_date': '2023/08/07', 'toll_booth': 'royal_ave', 'vehicle_make': 'Jaguar', 'vehicle_category': 'Coupe', 'transaction_amount': 5.36}
+{'transaction_id': 38396, 'transaction_date': '2023/08/23', 'toll_booth': 'royal_ave', 'vehicle_make': 'MAZDA', 'vehicle_category': 'Convertible', 'transaction_amount': 9.75}
+{'transaction_id': 35070, 'transaction_date': '2023/08/08', 'toll_booth': 'golf_rd', 'vehicle_make': 'Dodge', 'vehicle_category': 'Sedan', 'transaction_amount': 1.06}
+{'transaction_id': 58028, 'transaction_date': '2023/07/31', 'toll_booth': 'royal_ave', 'vehicle_make': 'Lincoln', 'vehicle_category': 'Sedan', 'transaction_amount': 9.54}
+{'transaction_id': 52412, 'transaction_date': '2023/08/16', 'toll_booth': 'royal_ave', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'Pickup', 'transaction_amount': 4.38}
+{'transaction_id': 90154, 'transaction_date': '2023/08/17', 'toll_booth': 'buckley_rd', 'vehicle_make': 'INFINITI', 'vehicle_category': 'Pickup', 'transaction_amount': 0.61}
+{'transaction_id': 86052, 'transaction_date': '2023/08/03', 'toll_booth': 'golf_rd', 'vehicle_make': 'GMC', 'vehicle_category': 'SUV', 'transaction_amount': 1.93}
+{'transaction_id': 50507, 'transaction_date': '2023/08/15', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Lincoln', 'vehicle_category': 'SUV', 'transaction_amount': 9.12}
+{'transaction_id': 67864, 'transaction_date': '2023/08/18', 'toll_booth': 'savanna_west', 'vehicle_make': 'Cadillac', 'vehicle_category': 'SUV', 'transaction_amount': 2.7}
+{'transaction_id': 27420, 'transaction_date': '2023/08/11', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Sedan', 'transaction_amount': 0.47}
+{'transaction_id': 37757, 'transaction_date': '2023/08/06', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Cadillac', 'vehicle_category': 'Hatchback', 'transaction_amount': 9.05}
+{'transaction_id': 35740, 'transaction_date': '2023/08/21', 'toll_booth': 'royal_ave', 'vehicle_make': 'Suzuki', 'vehicle_category': 'Sedan', 'transaction_amount': 9.51}
+{'transaction_id': 25265, 'transaction_date': '2023/08/09', 'toll_booth': 'savanna_west', 'vehicle_make': 'Ford', 'vehicle_category': 'Convertible, Sedan, Coupe', 'transaction_amount': 9.69}
+{'transaction_id': 32236, 'transaction_date': '2023/08/12', 'toll_booth': 'royal_ave', 'vehicle_make': 'Ford', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 6.59}
+{'transaction_id': 67874, 'transaction_date': '2023/07/31', 'toll_booth': 'royal_ave', 'vehicle_make': 'GMC', 'vehicle_category': 'Coupe, Convertible', 'transaction_amount': 4.09}
+{'transaction_id': 47443, 'transaction_date': '2023/08/20', 'toll_booth': '82nd_st', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Sedan', 'transaction_amount': 7.09}
+{'transaction_id': 18134, 'transaction_date': '2023/08/20', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Coupe', 'transaction_amount': 4.61}
+{'transaction_id': 31106, 'transaction_date': '2023/08/04', 'toll_booth': '82nd_st', 'vehicle_make': 'Nissan', 'vehicle_category': 'SUV', 'transaction_amount': 6.28}
+{'transaction_id': 12865, 'transaction_date': '2023/08/23', 'toll_booth': 'york_rd', 'vehicle_make': 'Cadillac', 'vehicle_category': 'Pickup', 'transaction_amount': 2.46}
+{'transaction_id': 86708, 'transaction_date': '2023/08/20', 'toll_booth': 'golf_rd', 'vehicle_make': 'Nissan', 'vehicle_category': 'Wagon', 'transaction_amount': 4.33}
+{'transaction_id': 34471, 'transaction_date': '2023/08/11', 'toll_booth': 'york_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Coupe', 'transaction_amount': 9.79}
+{'transaction_id': 94396, 'transaction_date': '2023/08/02', 'toll_booth': 'york_rd', 'vehicle_make': 'Suzuki', 'vehicle_category': 'Sedan', 'transaction_amount': 2.32}
+{'transaction_id': 25583, 'transaction_date': '2023/07/30', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Honda', 'vehicle_category': 'Pickup', 'transaction_amount': 1.4}
+{'transaction_id': 59491, 'transaction_date': '2023/08/23', 'toll_booth': 'york_rd', 'vehicle_make': 'Ram', 'vehicle_category': 'SUV', 'transaction_amount': 1.73}
+{'transaction_id': 50748, 'transaction_date': '2023/08/25', 'toll_booth': '82nd_st', 'vehicle_make': 'Mercedes-Benz', 'vehicle_category': 'Coupe, Convertible', 'transaction_amount': 2.18}
+{'transaction_id': 89432, 'transaction_date': '2023/08/21', 'toll_booth': '82nd_st', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'SUV', 'transaction_amount': 7.1}
+{'transaction_id': 90533, 'transaction_date': '2023/08/10', 'toll_booth': 'golf_rd', 'vehicle_make': 'Nissan', 'vehicle_category': 'Pickup', 'transaction_amount': 2.67}
+{'transaction_id': 78404, 'transaction_date': '2023/08/18', 'toll_booth': 'royal_ave', 'vehicle_make': 'GMC', 'vehicle_category': 'Sedan, Coupe', 'transaction_amount': 2.66}
+{'transaction_id': 54610, 'transaction_date': '2023/08/18', 'toll_booth': 'golf_rd', 'vehicle_make': 'Chrysler', 'vehicle_category': 'Pickup', 'transaction_amount': 5.42}
+{'transaction_id': 8584, 'transaction_date': '2023/08/26', 'toll_booth': '82nd_st', 'vehicle_make': 'Ford', 'vehicle_category': 'Convertible', 'transaction_amount': 2.33}
+{'transaction_id': 5716, 'transaction_date': '2023/08/15', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Buick', 'vehicle_category': 'Sedan', 'transaction_amount': 3.58}
+{'transaction_id': 78899, 'transaction_date': '2023/08/22', 'toll_booth': 'golf_rd', 'vehicle_make': 'Volvo', 'vehicle_category': 'Pickup', 'transaction_amount': 5.15}
+{'transaction_id': 80445, 'transaction_date': '2023/08/16', 'toll_booth': '82nd_st', 'vehicle_make': 'Dodge', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 3.74}
+{'transaction_id': 67241, 'transaction_date': '2023/08/14', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Ford', 'vehicle_category': 'Pickup', 'transaction_amount': 0.62}
+{'transaction_id': 88509, 'transaction_date': '2023/08/18', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Porsche', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 7.82}
+{'transaction_id': 25969, 'transaction_date': '2023/08/23', 'toll_booth': 'golf_rd', 'vehicle_make': 'Buick', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 1.74}
+{'transaction_id': 58103, 'transaction_date': '2023/08/20', 'toll_booth': 'royal_ave', 'vehicle_make': 'Dodge', 'vehicle_category': 'Coupe, Convertible', 'transaction_amount': 6.25}
+{'transaction_id': 9348, 'transaction_date': '2023/08/16', 'toll_booth': 'york_rd', 'vehicle_make': 'INFINITI', 'vehicle_category': 'Pickup', 'transaction_amount': 1.82}
+{'transaction_id': 35470, 'transaction_date': '2023/08/04', 'toll_booth': 'savanna_west', 'vehicle_make': 'GMC', 'vehicle_category': 'Coupe', 'transaction_amount': 4.6}
+{'transaction_id': 57261, 'transaction_date': '2023/08/15', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Chrysler', 'vehicle_category': 'Wagon', 'transaction_amount': 2.18}
+{'transaction_id': 4066, 'transaction_date': '2023/07/30', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'SUV', 'transaction_amount': 0.71}
+{'transaction_id': 56290, 'transaction_date': '2023/08/08', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Chrysler', 'vehicle_category': 'Pickup', 'transaction_amount': 8.48}
+{'transaction_id': 26511, 'transaction_date': '2023/07/30', 'toll_booth': 'royal_ave', 'vehicle_make': 'Dodge', 'vehicle_category': 'SUV', 'transaction_amount': 1.97}
+{'transaction_id': 70382, 'transaction_date': '2023/08/25', 'toll_booth': '82nd_st', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'Sedan', 'transaction_amount': 9.28}
+{'transaction_id': 55785, 'transaction_date': '2023/08/10', 'toll_booth': 'royal_ave', 'vehicle_make': 'Mercury', 'vehicle_category': 'SUV', 'transaction_amount': 5.98}
+{'transaction_id': 97914, 'transaction_date': '2023/08/01', 'toll_booth': 'golf_rd', 'vehicle_make': 'Saab', 'vehicle_category': 'SUV', 'transaction_amount': 4.61}
+{'transaction_id': 57818, 'transaction_date': '2023/08/07', 'toll_booth': 'golf_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'SUV', 'transaction_amount': 6.75}
+{'transaction_id': 36273, 'transaction_date': '2023/08/06', 'toll_booth': '82nd_st', 'vehicle_make': 'Suzuki', 'vehicle_category': 'Convertible, Coupe', 'transaction_amount': 4.85}
+{'transaction_id': 13086, 'transaction_date': '2023/08/17', 'toll_booth': 'golf_rd', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 2.0}
+{'transaction_id': 843, 'transaction_date': '2023/08/10', 'toll_booth': 'savanna_west', 'vehicle_make': 'Mercedes-Benz', 'vehicle_category': 'Van/Minivan', 'transaction_amount': 5.87}
+{'transaction_id': 7515, 'transaction_date': '2023/08/20', 'toll_booth': '82nd_st', 'vehicle_make': 'Mitsubishi', 'vehicle_category': 'Pickup', 'transaction_amount': 8.95}
+{'transaction_id': 90397, 'transaction_date': '2023/08/16', 'toll_booth': 'savanna_west', 'vehicle_make': 'Nissan', 'vehicle_category': 'SUV', 'transaction_amount': 6.37}
+{'transaction_id': 77766, 'transaction_date': '2023/08/28', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Mercedes-Benz', 'vehicle_category': 'Sedan, Hatchback', 'transaction_amount': 0.46}
+{'transaction_id': 52797, 'transaction_date': '2023/08/09', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Ram', 'vehicle_category': 'Pickup', 'transaction_amount': 4.83}
+{'transaction_id': 75408, 'transaction_date': '2023/07/30', 'toll_booth': 'royal_ave', 'vehicle_make': 'Porsche', 'vehicle_category': 'Sedan, Hatchback', 'transaction_amount': 6.22}
+{'transaction_id': 3665, 'transaction_date': '2023/08/21', 'toll_booth': 'savanna_west', 'vehicle_make': 'Acura', 'vehicle_category': 'Hatchback', 'transaction_amount': 6.26}
+{'transaction_id': 9239, 'transaction_date': '2023/08/20', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Nissan', 'vehicle_category': 'Coupe, Convertible', 'transaction_amount': 8.96}
+{'transaction_id': 44616, 'transaction_date': '2023/08/17', 'toll_booth': '82nd_st', 'vehicle_make': 'Plymouth', 'vehicle_category': 'Wagon, Sedan', 'transaction_amount': 4.86}
+{'transaction_id': 41216, 'transaction_date': '2023/08/10', 'toll_booth': 'york_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Sedan', 'transaction_amount': 0.05}
+{'transaction_id': 54966, 'transaction_date': '2023/08/12', 'toll_booth': 'golf_rd', 'vehicle_make': 'Pontiac', 'vehicle_category': 'SUV', 'transaction_amount': 4.06}
+{'transaction_id': 6933, 'transaction_date': '2023/08/16', 'toll_booth': '82nd_st', 'vehicle_make': 'INFINITI', 'vehicle_category': 'Pickup', 'transaction_amount': 9.7}
+{'transaction_id': 73592, 'transaction_date': '2023/08/27', 'toll_booth': 'york_rd', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'SUV', 'transaction_amount': 3.04}
+{'transaction_id': 35998, 'transaction_date': '2023/08/01', 'toll_booth': 'savanna_west', 'vehicle_make': 'Ford', 'vehicle_category': 'Sedan', 'transaction_amount': 6.24}
+{'transaction_id': 69715, 'transaction_date': '2023/08/17', 'toll_booth': 'york_rd', 'vehicle_make': 'GMC', 'vehicle_category': 'Sedan, Hatchback', 'transaction_amount': 4.5}
+{'transaction_id': 36736, 'transaction_date': '2023/08/18', 'toll_booth': 'york_rd', 'vehicle_make': 'Chrysler', 'vehicle_category': 'Sedan', 'transaction_amount': 9.14}
+{'transaction_id': 43390, 'transaction_date': '2023/08/05', 'toll_booth': 'royal_ave', 'vehicle_make': 'Toyota', 'vehicle_category': 'Hatchback', 'transaction_amount': 2.84}
+{'transaction_id': 70868, 'transaction_date': '2023/08/18', 'toll_booth': 'savanna_west', 'vehicle_make': 'Chevrolet', 'vehicle_category': 'Coupe', 'transaction_amount': 2.41}
+{'transaction_id': 49099, 'transaction_date': '2023/08/24', 'toll_booth': '82nd_st', 'vehicle_make': 'Audi', 'vehicle_category': 'Sedan', 'transaction_amount': 5.25}
+{'transaction_id': 26991, 'transaction_date': '2023/08/15', 'toll_booth': 'buckley_rd', 'vehicle_make': 'Kia', 'vehicle_category': 'Wagon', 'transaction_amount': 9.23}
