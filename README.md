@@ -58,6 +58,7 @@ Click "Connect to Database" and use the following configurations:
   - Click connect and finish this step. <br>
   5. Under Resources on the left, make sure "toll_db" and "public" are selected. <br>
   6. Open the "create_table.txt" file and paste the content of the query to the query editor on the right. <br>
+  7. Run the query and review that the table was created by checking it on the left side. <br>
 </details>
 
 <details>
