@@ -26,7 +26,12 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 
 <details>
   <summary>Configure an Amazon S3 event notification to invoke an AWS Lambda function</summary>
-  Click on your S3 staging bucket
+  1. Click on your S3 staging bucket and go to the Properties tab. <br>
+  2. Scroll down to Event Notifications and click on "create event notification". <br>
+  3. Use the following configurations: <br>
+    Name: s3Events <br>
+    Suffix: .json <br>
+    Under Object Creation, choose Put
 </details>
 
 <details>
