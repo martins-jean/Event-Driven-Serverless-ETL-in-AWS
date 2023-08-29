@@ -18,7 +18,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 
 ## Step-by-step Guidelines
 <details>
-  <summary>###Required setup</summary>
+  <summary>Required setup</summary>
   1. Download the query included in the "create_table.txt" file. <br>
   2. In S3, create a landing bucket and a staging bucket. <br>
   3. Upload the "sample_data_toll_application.json" file to your landing bucket. <br>
