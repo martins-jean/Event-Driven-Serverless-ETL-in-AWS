@@ -22,6 +22,9 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   1. Download the query included in the "create_table.txt" file. <br>
   2. In S3, create a landing bucket and a staging bucket. <br>
   3. Upload the "sample_data_toll_application.json" file to your landing bucket. <br>
+  4. Create several Lambda functions using the boto3 Python code I uploaded above: <br>
+  - "start_workflow_function.py" <br>
+  -
 </details>
 
 <details>
@@ -29,9 +32,11 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   1. Click on your S3 staging bucket and go to the Properties tab. <br>
   2. Scroll down to Event Notifications and click on "create event notification". <br>
   3. Use the following configurations: <br>
-    Name: s3Events <br>
-    Suffix: .json <br>
-    Under Object Creation, choose Put
+  - Name: s3Events <br>
+  - Suffix: .json <br>
+  - Under Object Creation, choose Put <br>
+  - Under Destination, choose Lambda function <br>
+  - Select the "start_workflow_function" on the dropdown menu
 </details>
 
 <details>
