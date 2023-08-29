@@ -41,10 +41,19 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - Under Destination, choose Lambda function. <br>
   - Select the "start_workflow_function" from the dropdown menu. <br>
   - Save the changes and finish this step.
+Click "Connect to Database" and use the following configurations:
 </details>
 
 <details>
   <summary>Create an AWS Glue crawler to read schema from Amazon Redshift</summary>
+  1. Open Redshift and select the cluster you created earlier. <br>
+  2. Copy the JDBC URL of your Redshift cluster. <br>
+  3. Open the query editor inside your Redshift cluster. <br>
+  4. Click "Connect to Database" and use the following configurations:
+  - Under Connection, choose "Create new connection" <br>
+  - Under Authentication, choose Temporary credentials <br>
+  - Under Cluster, select the one you created for this project <br>
+  - Under Database user, select "admin"
 </details>
 
 <details>
