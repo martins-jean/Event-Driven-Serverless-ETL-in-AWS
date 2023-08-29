@@ -15,3 +15,8 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 7. Each workflow manages the run and monitoring of all of its jobs and crawlers. As a workflow runs each component, it records progress and status.
 8. AWS Glue jobs issue COPY statements against Amazon Redshift to achieve maximum throughput. These commands require that the Amazon Redshift cluster access Amazon S3 as a staging directory.
 9. You can connect to the Amazon Redshift database using the built-in query editor, SQL client tool or built-in Data API.
+
+## Step-by-step Guidelines
+<details>
+  <summary>Configure an Amazon S3 event notification to invoke an AWS Lambda function</summary>
+</details>
