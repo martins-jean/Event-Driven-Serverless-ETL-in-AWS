@@ -21,10 +21,10 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   <summary>Required setup</summary>
   1. Download the query included in the "create_table.txt" file. <br>
   2. In S3, create a landing bucket and a staging bucket. <br>
-  3. Upload the "sample_data_toll_application.json" file to your landing bucket. <br>
   4. Create several Lambda functions using the boto3 Python code I uploaded above: <br>
   - "start_workflow_function.py" <br>
-  - 
+  - "toll_plaza_application.py" <br>
+  4. Upload the "sample_data_toll_application.json" file manually to your landing bucket or run the "toll_plaza_application.py" function to automatically create and send randomly generated toll data to your landing bucket. <br>
 </details>
 
 <details>
