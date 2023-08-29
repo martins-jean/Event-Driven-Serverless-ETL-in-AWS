@@ -53,6 +53,7 @@ Click "Connect to Database" and use the following configurations:
   - Under Connection, choose "Create new connection" <br>
   - Under Authentication, choose Temporary credentials <br>
   - Under Cluster, select the one you created for this project <br>
+  - Under Database name, type "toll_db" <br>
   - Under Database user, select "admin"
 </details>
 
