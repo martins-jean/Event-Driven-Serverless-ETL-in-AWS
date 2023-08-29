@@ -24,7 +24,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   3. Upload the "sample_data_toll_application.json" file to your landing bucket. <br>
   4. Create several Lambda functions using the boto3 Python code I uploaded above: <br>
   - "start_workflow_function.py" <br>
-  -
+  - 
 </details>
 
 <details>
@@ -34,9 +34,10 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   3. Use the following configurations: <br>
   - Name: s3Events <br>
   - Suffix: .json <br>
-  - Under Object Creation, choose Put <br>
-  - Under Destination, choose Lambda function <br>
-  - Select the "start_workflow_function" on the dropdown menu
+  - Under Object Creation, choose Put. <br>
+  - Under Destination, choose Lambda function. <br>
+  - Select the "start_workflow_function" from the dropdown menu. <br>
+  - Save the changes and finish this step.
 </details>
 
 <details>
