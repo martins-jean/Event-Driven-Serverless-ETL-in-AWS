@@ -35,6 +35,10 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - No IPv6. <br>
   - 4 subnets and 5 route tables across two availability zones in the same region. <br>
   - DNS options: enable DNS hostnames and enable DNS resolution. <br>
+  8. Create a Redshift security group with the following configurations: <br>
+  - inbound rule type: Redhshift / source: custom 0.0.0.0/0 / description: Allow access to tcp port 5439. <br>
+  - inbound rule type: All traffic / source: custom sg-00d547bf7a5580bab / description: Allow access to self SG. <br>
+  - outbound rule type: All traffic / source: custom 0.0.0.0/0 / description: Allow all outbound traffic by default. <br>
 </details>
 
 <details>
@@ -68,7 +72,17 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   8. Navigate to the AWS Secrets Manager, click Secrets on the left and then click on the secret you created earlier. <br>
   9. Under Secret Value, click on "Retrieve secret value". <br>
   10. Copy the password and keep it available in a text editor. <br>
-  11. Navigate to the AWS VPC console
+  11. Navigate to the AWS VPC console, click on the VPC you created earlier and then copy the ID one of the subnets that starts with database. <br>
+  12. Navigate to AWS Glue and under Data Connections, create a connection with the following configurations: <br>
+  - Name: redshift_conn. <br>
+  - Connection type: JDBC. <br>
+  - JDBC URL: the JDBC URL you copied from the Redshift cluster page. <br>
+  - Credential type: Username and password. <br>
+  - Username: admin. <br>
+  - Password: the password you copied earlier. <br>
+  - Expand Network Options, under VPC: the VPC you created earlier. <br>
+  - Subnets: choose the subnet ID you copied earlier. <br>
+  - 
 </details>
 
 <details>
