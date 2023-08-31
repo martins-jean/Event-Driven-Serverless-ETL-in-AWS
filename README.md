@@ -82,7 +82,16 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - Password: the password you copied earlier. <br>
   - Expand Network Options, under VPC: the VPC you created earlier. <br>
   - Subnets: choose the subnet ID you copied earlier. <br>
-  - 
+  - Create the create connection. <br>
+  13. In AWS Glue, under the Data Catalog section, select Crawlers. <br>
+  14. Click Create Crawler and input the following configurations: <br>
+  - Name: Redshift-Crawler. <br>
+  - Data Source Configuration: Not yet. <br>
+  - Click Add a data source and input the following configurations: <br>
+  - Data Source: JDBC. <br>
+  - Connection: redshift_conn. <br>
+  - Include path: toll_db/public/%. <br>
+  - Click add a JDBC source. <br>
 </details>
 
 <details>
