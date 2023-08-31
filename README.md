@@ -28,6 +28,13 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   5. Create a Redshift cluster with the following configurations: <br>
   - Node type: dc2.large <br>
   - Number of nodes: 1 <br>
+  6. Create a secret in the AWS Secrets Manager called tollclusterSecret associated with the Redshift cluster. <br>
+  7. Create a VPC with the following configurations: <br>
+  - IPv4 CIDR block: 10.0.0.0/16. <br>
+  - Tenancy: default. <br>
+  - No IPv6. <br>
+  - 4 subnets and 5 route tables across two availability zones in the same region. <br>
+  - DNS options: enable DNS hostnames and enable DNS resolution. <br>
 </details>
 
 <details>
@@ -41,7 +48,6 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - Under Destination, choose Lambda function. <br>
   - Select the "start_workflow_function" from the dropdown menu. <br>
   - Save the changes and finish this step.
-Click "Connect to Database" and use the following configurations:
 </details>
 
 <details>
@@ -49,7 +55,7 @@ Click "Connect to Database" and use the following configurations:
   1. Open Redshift and select the cluster you created earlier. <br>
   2. Copy the JDBC URL of your Redshift cluster. <br>
   3. Open the query editor inside your Redshift cluster. <br>
-  4. Click "Connect to Database" and use the following configurations:
+  4. Click "Connect to Database" and use the following configurations: <br>
   - Under Connection, choose "Create new connection" <br>
   - Under Authentication, choose Temporary credentials <br>
   - Under Cluster, select the one you created for this project <br>
@@ -59,6 +65,10 @@ Click "Connect to Database" and use the following configurations:
   5. Under Resources on the left, make sure "toll_db" and "public" are selected. <br>
   6. Open the "create_table.txt" file and paste the content of the query to the query editor on the right. <br>
   7. Run the query and review that the table was created by checking it on the left side. <br>
+  8. Navigate to the AWS Secrets Manager, click Secrets on the left and then click on the secret you created earlier. <br>
+  9. Under Secret Value, click on "Retrieve secret value". <br>
+  10. Copy the password and keep it available in a text editor. <br>
+  11. Navigate to the AWS VPC console
 </details>
 
 <details>
