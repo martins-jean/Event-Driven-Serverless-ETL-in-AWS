@@ -94,7 +94,14 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - Include path: toll_db/public/%. <br>
   - Click add a JDBC source. <br>
   - Click Next. <br>
-  - Choose the IAMGlueServiceRole
+  - Choose the IAMGlueServiceRole. <br>
+  - Click Next. <br>
+  - Under Output Configuration, choose toll-raw-db as the target database. <br>
+  - Under Crawler schedule, within Frequency choose On-demand. <br>
+  - Click Next and then Create Crawler. <br>
+  15. Refresh the crawler page and then run the crawler. <br>
+  16. Once the status of the crawler run displays "completed", click on Data Catalog / Databases / Tables. <br>
+  17. Review the two available tables and their respective classifications to finish this step.
 </details>
 
 <details>
