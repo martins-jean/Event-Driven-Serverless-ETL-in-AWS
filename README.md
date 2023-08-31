@@ -16,7 +16,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 8. AWS Glue jobs issue COPY statements against Amazon Redshift to achieve maximum throughput. These commands require that the Amazon Redshift cluster access Amazon S3 as a staging directory.
 9. You can connect to the Amazon Redshift database using the built-in query editor, SQL client tool or built-in Data API.
 
-## Step-by-step Guidelines
+## Reproducibility Guidelines
 <details>
   <summary>Required setup</summary>
   1. Download the query included in the "create_table.txt" file. <br>
