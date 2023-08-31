@@ -40,6 +40,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - inbound rule type: All traffic / source: custom sg-00d547bf7a5580bab / description: Allow access to self SG. <br>
   - outbound rule type: All traffic / source: custom 0.0.0.0/0 / description: Allow all outbound traffic by default. <br>
   9. Create an IAMGlueServiceRole.
+  10. Create a S3 crawler and an associated workflow that uses the S3 crawler. <br>
 </details>
 
 <details>
@@ -134,6 +135,23 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 
 <details>
   <summary>Create AWS Glue workflows to crawl raw data from the S3 bucket, and then use an AWS Glue ETL job</summary>
+  1. Under Data Integration and ETL in the AWS Glue main page, click Workflows (orchestration). <br>
+  2. Create a new workflow with the following configurations: <br>
+  - Name: redshift_workflow. <br>
+  - Max concurrency: 2. <br>
+  3. On the newly created workflow page, click add trigger: <br>
+  - Choose add new. <br>
+  - Name: redshift-workflows-start. <br>
+  - Trigger type: on-demand. <br>
+  4. On the workflow canvas, click add node: <br>
+  - Under crawlers, select s3_crawler. <br>
+  5. Click the s3_crawler node and add a trigger: <br>
+  - Under add new, input the following name: s3-crawler-event. <br>
+  - Trigger type: event. <br>
+  - Trigger logic: start after ANY watched event. <br>
+  6. On the workflow canvas, click on add node to the right: <br>
+  - Under Jobs, select s3_to_redshift_job. <br>
+  7. Review the process which starts with an S3 event notification, which starts an S3 crawler. Upon completion, the AWS Glue crawler event runs the s3_to_redshift_job. <br>
 </details>
 
 <details>
