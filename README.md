@@ -106,6 +106,30 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 
 <details>
   <summary>Create an AWS Glue ETL job to move data from an S3 bucket to Amazon Redshift</summary>
+  1. Click ETL Jobs. <br>
+  2. Use the following configurations to create the job and then click create: <br>
+  - Visual with a source and target. <br>
+  - Source: S3. <br>
+  - Target: Amazon Redshift. <br>
+  3. On the visual editor, click the S3 step and input the following: <br>
+  - S3 source type: Data Catalog table. <br>
+  - Database: toll-raw-db. <br>
+  - Table: the one with the prefix "landing_bucket". <br>
+  4. Under the second step in the visual editor, edit with these options: <br>
+  - Choose bigint for the data type of transaction id and double for the transaction amount. <br>
+  5. Under the last step in the visual editor, choose the following: <br>
+  - Redshift access type: Glue Data Catalog tables. <br>
+  - Database: toll-raw-db. <br>
+  - Table: toll_db_public_toll_table. <br>
+  - Expand Performance and Security, click Browse S3 and choose the staging bucket. <br>
+  6. Under Job Details: <br>
+  - Name: s3_to_redshift_job. <br>
+  - IAM Role: IAMGlueServiceRole. <br>
+  - Requested number of workers: 3. <br>
+  - Generate job insights checked. <br>
+  - Number of retries: 1. <br>
+  - Job timeout: 15 minutes. <br>
+  - Click save to finish this step. <br>
 </details>
 
 <details>
