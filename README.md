@@ -152,8 +152,16 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   6. On the workflow canvas, click on add node to the right: <br>
   - Under Jobs, select s3_to_redshift_job. <br>
   7. Review the process which starts with an S3 event notification, which starts an S3 crawler. Upon completion, the AWS Glue crawler event runs the s3_to_redshift_job. <br>
+  8. Go to AWS Lambda, click on the toll_plaza_application function. <br>
+  9. Configure a test event: <br>
+  - Event name: TestEvent and then click save. <br>
+  10. Click test and review the results to check if the upload of the randomly generated data was completed successfully. <br>
+  11. Return to the Glue workflow page and wait until the workflow finishes running to complete this step. <br>
 </details>
 
 <details>
   <summary>Query the data using the Amazon Redshift query editor</summary>
+  1. Navigate to the query editor page in your Redshift cluster and click on connect to database using the recent connection. <br>
+  2. Use the ellipsis on the right of the toll_table to then select the preview data option. <br>
+  3. You can now query the data as you wish via Redshift.
 </details>
