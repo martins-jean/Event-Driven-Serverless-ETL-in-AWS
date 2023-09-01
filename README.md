@@ -1,4 +1,5 @@
 # Event-Driven Serverless ETL in AWS
+
 Used AWS services to automate the consolidation of toll plaza transactions in a data warehouse.
 
 ## Architecture Diagram
@@ -6,6 +7,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 ![Screenshot 2023-08-29 at 17 29 20](https://github.com/martins-jean/Event-Driven-Serverless-ETL-in-AWS/assets/118685801/729e6e8f-2662-4a56-82da-a90a5b956eb4)
 
 ## Project Overview
+
 1. This solution uses AWS Glue workflows to manage the ingestion of data in a data warehouse. The Amazon S3 Event Notifications feature is used to invoke the AWS Glue workflow as the data arrives in the Amazon S3 landing zone bucket.
 2. Raw data is collected in the Amazon S3 landing zone bucket. The data can be unstructured or structured.
 3. An AWS Glue crawler can crawl multiple data stores to populate the AWS Glue Data Catalog with tables. ETL jobs, which you define in AWS Glue, use these Data Catalog tables as sources and targets.
@@ -17,6 +19,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
 9. You can connect to the Amazon Redshift database using the built-in query editor, SQL client tool or built-in Data API.
 
 ## Reproducibility Guidelines
+
 <details>
   <summary>Required setup</summary>
   1. Download the query included in the "create_table.txt" file. <br>
