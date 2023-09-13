@@ -42,7 +42,7 @@ Used AWS services to automate the consolidation of toll plaza transactions in a 
   - inbound rule type: Redhshift / source: custom 0.0.0.0/0 / description: Allow access to tcp port 5439. <br>
   - inbound rule type: All traffic / source: custom sg-00d547bf7a5580bab / description: Allow access to self SG. <br>
   - outbound rule type: All traffic / source: custom 0.0.0.0/0 / description: Allow all outbound traffic by default. <br>
-  9. Create an IAMGlueServiceRole.
+  9. Create an IAMGlueServiceRole. <br>
   10. Create a S3 crawler and an associated workflow that uses the S3 crawler. <br>
 </details>
 
