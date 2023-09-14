@@ -2,7 +2,9 @@
 
 ## Contextual overview
 
+<p align="justify">
 The management of an electronic toll-collection company wants to consolidate the billing of the toll plazas in a data warehouse with the most up-to-date data.
+</p>
 
 ## Architecture diagram
 
