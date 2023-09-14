@@ -17,18 +17,16 @@ The management of an electronic toll-collection company wants to consolidate the
 2. To create a data catalog, an AWS Glue crawler will crawl the S3 bucket JSON files. <br>
 3. To receive notifications when a PUT event happens, we will configure an Amazon S3 Event Notification which will send notification messages to the AWS Lambda function. <br>
 4. To ingest the data from the data lake and into the data warehouse, we will use an AWS Glue workflow, invoked by a Lambda function and launching a Glue ETL job. <br>
-5. To access the data, the end users can rely on the Redshift built-in query editor, the SQL client tool or the built-in Data API.
+5. To access the data, the end users have the Redshift built-in query editor, the SQL client tool or the built-in Data API.
 </p>
 
-## Reproducibility Guidelines
+## Reproducibility guidelines
 
 <details>
   <summary>Required setup</summary>
   1. Download the query included in the "create_table.txt" file. <br>
   2. In S3, create a landing bucket and a staging bucket. <br>
-  3. Create several Lambda functions using the boto3 Python code I uploaded above: <br>
-  - "start_workflow_function.py" <br>
-  - "toll_plaza_application.py" <br>
+  3. Create several Lambda functions using the boto3 scripts I uploaded above. <br>
   4. Upload the "sample_data_toll_application.json" file manually to your landing bucket or run the "toll_plaza_application.py" Lambda function to automatically create and send randomly generated toll data to your landing bucket. <br>
   5. Create a Redshift cluster with the following configurations: <br>
   - Node type: dc2.large <br>
