@@ -16,7 +16,7 @@ The management of an electronic toll-collection company wants to consolidate the
 1. To collect the raw data, we will use an Amazon S3 landing bucket. <br>
 2. To create a data catalog, an AWS Glue crawler will crawl the S3 bucket JSON files. <br>
 3. To receive notifications when a PUT event happens, we will configure an Amazon S3 Event Notification which will send notification messages to the AWS Lambda function. <br>
-4. To ingest the data from the data lake and into the data warehouse, we will use an AWS Glue workflow which is invoked by the Lambda function and launches a Glue ETL job. The job will encapsulate a script that connects to the data source (S3), processes it, and then writes it out to the data target (Redshift). <br>
+4. To ingest the data from the data lake and into the data warehouse, we will use an AWS Glue workflow, invoked by a Lambda function and launching a Glue ETL job. <br>
 5. To access the data, the end users can rely on the Redshift built-in query editor, the SQL client tool or the built-in Data API.
 </p>
 
