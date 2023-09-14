@@ -2,6 +2,8 @@
 
 ## Contextual overview
 
+The management of an electronic toll-collection company wants to consolidate the billing of the toll plazas in a data warehouse with the most up-to-date data.
+
 ## Architecture diagram
 
 ![Screenshot 2023-08-29 at 17 29 20](https://github.com/martins-jean/Event-Driven-Serverless-ETL-in-AWS/assets/118685801/729e6e8f-2662-4a56-82da-a90a5b956eb4)
@@ -9,16 +11,10 @@
 ## Project objectives
 
 1. To collect the raw data, we will use an Amazon S3 landing bucket.
-2. To receive notifications when a PUT event happens, we will configure an Amazon S3 Event Notification: this will send notification messages to the AWS Lambda function.
-3. To ingest the data from the data lake and into the data warehouse, we will use an AWS Glue workflow which is invoked by the Lambda function and launches a Glue ETL job. The job will encapsulate a script that connects to the data source (S3), processes it and then writes it out to the data target (Redshift).
-4. 
-
-3. An AWS Glue crawler can crawl multiple data stores to populate the AWS Glue Data Catalog with tables. ETL jobs, which you define in AWS Glue, use these Data Catalog tables as sources and targets.
-4. An AWS Glue job encapsulates a script that connects to your source data, processes it, and then writes it out to your data target.
-6. In AWS Glue, you can use workflows to create and visualize complex ETL activities that involve multiple crawlers, jobs, and triggers.
-7. Each workflow manages the run and monitoring of all of its jobs and crawlers. As a workflow runs each component, it records progress and status.
-8. AWS Glue jobs issue COPY statements against Amazon Redshift to achieve maximum throughput. These commands require that the Amazon Redshift cluster access Amazon S3 as a staging directory.
-9. You can connect to the Amazon Redshift database using the built-in query editor, SQL client tool or built-in Data API.
+2. To create a data catalog, an AWS Glue crawler will crawl the S3 bucket JSON files.
+3. To receive notifications when a PUT event happens, we will configure an Amazon S3 Event Notification: this will send notification messages to the AWS Lambda function.
+4. To ingest the data from the data lake and into the data warehouse, we will use an AWS Glue workflow which is invoked by the Lambda function and launches a Glue ETL job. The job will encapsulate a script that connects to the data source (S3), processes it, and then writes it out to the data target (Redshift).
+5. To access the data, the end users can rely on the Redshift built-in query editor, the SQL client tool or the built-in Data API.
 
 ## Reproducibility Guidelines
 
